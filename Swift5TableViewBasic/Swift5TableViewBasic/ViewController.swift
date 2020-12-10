@@ -28,7 +28,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 1
+        return textArray.count
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
