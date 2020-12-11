@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8167DDA8258331F7001212E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167DDA7258331F7001212E9 /* AppDelegate.swift */; };
+		8167DDAA258331F7001212E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167DDA9258331F7001212E9 /* SceneDelegate.swift */; };
+		8167DDAC258331F7001212E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167DDAB258331F7001212E9 /* ViewController.swift */; };
+		8167DDAF258331F7001212E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8167DDAD258331F7001212E9 /* Main.storyboard */; };
+		8167DDB1258331F9001212E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8167DDB0258331F9001212E9 /* Assets.xcassets */; };
+		8167DDB4258331F9001212E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8167DDB2258331F9001212E9 /* LaunchScreen.storyboard */; };
+		8167DDD725835334001212E9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8167DDD625835334001212E9 /* LoginViewController.swift */; };
+		8167DDDA258354B4001212E9 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 8167DDD9258354B4001212E9 /* GoogleService-Info (1).plist */; };
+		E44B1DE9C69CB6030D520215 /* Pods_Swift5ShindanMaker1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88521597008085AA0DB9EE28 /* Pods_Swift5ShindanMaker1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65B11819E0E3C2B7147E586F /* Pods-Swift5ShindanMaker1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5ShindanMaker1.release.xcconfig"; path = "Target Support Files/Pods-Swift5ShindanMaker1/Pods-Swift5ShindanMaker1.release.xcconfig"; sourceTree = "<group>"; };
+		8167DDA4258331F7001212E9 /* Swift5ShindanMaker1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift5ShindanMaker1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8167DDA7258331F7001212E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8167DDA9258331F7001212E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8167DDAB258331F7001212E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8167DDAE258331F7001212E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8167DDB0258331F9001212E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8167DDB3258331F9001212E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8167DDB5258331F9001212E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8167DDD625835334001212E9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8167DDD9258354B4001212E9 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		87CBF2AC2C057EBB45CA4CBE /* Pods-Swift5ShindanMaker1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift5ShindanMaker1.debug.xcconfig"; path = "Target Support Files/Pods-Swift5ShindanMaker1/Pods-Swift5ShindanMaker1.debug.xcconfig"; sourceTree = "<group>"; };
+		88521597008085AA0DB9EE28 /* Pods_Swift5ShindanMaker1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift5ShindanMaker1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8167DDA1258331F7001212E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44B1DE9C69CB6030D520215 /* Pods_Swift5ShindanMaker1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25385209FE2E60D81545580D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88521597008085AA0DB9EE28 /* Pods_Swift5ShindanMaker1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8167DD9B258331F7001212E9 = {
+			isa = PBXGroup;
+			children = (
+				8167DDA6258331F7001212E9 /* Swift5ShindanMaker1 */,
+				8167DDA5258331F7001212E9 /* Products */,
+				88B6661C9D65285C15813D84 /* Pods */,
+				25385209FE2E60D81545580D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8167DDA5258331F7001212E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8167DDA4258331F7001212E9 /* Swift5ShindanMaker1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8167DDA6258331F7001212E9 /* Swift5ShindanMaker1 */ = {
+			isa = PBXGroup;
+			children = (
+				8167DDA7258331F7001212E9 /* AppDelegate.swift */,
+				8167DDA9258331F7001212E9 /* SceneDelegate.swift */,
+				8167DDD3258352CD001212E9 /* Controller */,
+				8167DDAD258331F7001212E9 /* Main.storyboard */,
+				8167DDB0258331F9001212E9 /* Assets.xcassets */,
+				8167DDB2258331F9001212E9 /* LaunchScreen.storyboard */,
+				8167DDB5258331F9001212E9 /* Info.plist */,
+				8167DDD9258354B4001212E9 /* GoogleService-Info (1).plist */,
+			);
+			path = Swift5ShindanMaker1;
+			sourceTree = "<group>";
+		};
+		8167DDD3258352CD001212E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8167DDAB258331F7001212E9 /* ViewController.swift */,
+				8167DDD625835334001212E9 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88B6661C9D65285C15813D84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87CBF2AC2C057EBB45CA4CBE /* Pods-Swift5ShindanMaker1.debug.xcconfig */,
+				65B11819E0E3C2B7147E586F /* Pods-Swift5ShindanMaker1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8167DDA3258331F7001212E9 /* Swift5ShindanMaker1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8167DDB8258331F9001212E9 /* Build configuration list for PBXNativeTarget "Swift5ShindanMaker1" */;
+			buildPhases = (
+				93D931C84435C305C599C62A /* [CP] Check Pods Manifest.lock */,
+				8167DDA0258331F7001212E9 /* Sources */,
+				8167DDA1258331F7001212E9 /* Frameworks */,
+				8167DDA2258331F7001212E9 /* Resources */,
+				48480BCDD8561476E1A3F08E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift5ShindanMaker1;
+			productName = Swift5ShindanMaker1;
+			productReference = 8167DDA4258331F7001212E9 /* Swift5ShindanMaker1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8167DD9C258331F7001212E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					8167DDA3258331F7001212E9 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 8167DD9F258331F7001212E9 /* Build configuration list for PBXProject "Swift5ShindanMaker1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8167DD9B258331F7001212E9;
+			productRefGroup = 8167DDA5258331F7001212E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8167DDA3258331F7001212E9 /* Swift5ShindanMaker1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8167DDA2258331F7001212E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8167DDB4258331F9001212E9 /* LaunchScreen.storyboard in Resources */,
+				8167DDB1258331F9001212E9 /* Assets.xcassets in Resources */,
+				8167DDAF258331F7001212E9 /* Main.storyboard in Resources */,
+				8167DDDA258354B4001212E9 /* GoogleService-Info (1).plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48480BCDD8561476E1A3F08E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5ShindanMaker1/Pods-Swift5ShindanMaker1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift5ShindanMaker1/Pods-Swift5ShindanMaker1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift5ShindanMaker1/Pods-Swift5ShindanMaker1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D931C84435C305C599C62A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift5ShindanMaker1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8167DDA0258331F7001212E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8167DDD725835334001212E9 /* LoginViewController.swift in Sources */,
+				8167DDAC258331F7001212E9 /* ViewController.swift in Sources */,
+				8167DDA8258331F7001212E9 /* AppDelegate.swift in Sources */,
+				8167DDAA258331F7001212E9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8167DDAD258331F7001212E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8167DDAE258331F7001212E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8167DDB2258331F9001212E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8167DDB3258331F9001212E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8167DDB6258331F9001212E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8167DDB7258331F9001212E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8167DDB9258331F9001212E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CBF2AC2C057EBB45CA4CBE /* Pods-Swift5ShindanMaker1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R78LYP84FY;
+				INFOPLIST_FILE = Swift5ShindanMaker1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasuyama.Swift5ShindanMaker1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8167DDBA258331F9001212E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B11819E0E3C2B7147E586F /* Pods-Swift5ShindanMaker1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R78LYP84FY;
+				INFOPLIST_FILE = Swift5ShindanMaker1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasuyama.Swift5ShindanMaker1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8167DD9F258331F7001212E9 /* Build configuration list for PBXProject "Swift5ShindanMaker1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8167DDB6258331F9001212E9 /* Debug */,
+				8167DDB7258331F9001212E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8167DDB8258331F9001212E9 /* Build configuration list for PBXNativeTarget "Swift5ShindanMaker1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8167DDB9258331F9001212E9 /* Debug */,
+				8167DDBA258331F9001212E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8167DD9C258331F7001212E9 /* Project object */;
+}

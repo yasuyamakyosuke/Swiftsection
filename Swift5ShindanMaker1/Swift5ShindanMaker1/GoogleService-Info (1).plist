@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>594324127046-80qbrtpd3sktu9e90s2ctlpa8skkuiso.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.594324127046-80qbrtpd3sktu9e90s2ctlpa8skkuiso</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCMptPiHxEyorJQkM0CF4_MObQvgng8CEc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>594324127046</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yasuyama.Swift5ShindanMaker1</string>
+	<key>PROJECT_ID</key>
+	<string>swift5shindanmaker</string>
+	<key>STORAGE_BUCKET</key>
+	<string>swift5shindanmaker.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:594324127046:ios:6245d82dcdd913c46f3947</string>
+</dict>
+</plist>
