@@ -64,6 +64,9 @@
                                 <state key="normal" title="twitterでシェア">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="share:" destination="39d-xN-95L" eventType="touchUpInside" id="D76-Kv-3wk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r48-Rc-Qx3">
                                 <rect key="frame" x="31" y="568" width="353" height="49"/>
@@ -73,6 +76,9 @@
                                 <state key="normal" title="アプリ内でシェア">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="sendData:" destination="39d-xN-95L" eventType="touchUpInside" id="Ace-lI-yG5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vW-lk-xOc">
                                 <rect key="frame" x="277" y="728" width="107" height="58"/>
@@ -100,6 +106,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="5Kh-aS-hul"/>
+                    <connections>
+                        <outlet property="meigenLabel" destination="3NK-68-kds" id="z7q-YQ-TJw"/>
+                        <outlet property="toFeedButton" destination="20u-eQ-wD6" id="s7D-ii-xX0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F4S-6D-X09" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
